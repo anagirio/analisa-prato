@@ -110,11 +110,11 @@ Na segmentação (Figura~\ref{fig:segm}), o prato é o maior componente claro ap
 
 \subsection{CNN, augmentation e análise do prato}
 
-Uma ResNet18 pré-treinada classifica recortes de $160\times160$ pixels cujo lado é 25\% do diâmetro do prato, o que os torna independentes da distância da câmera (AdamW, 15 épocas, melhor época pela validação). Foram comparados três níveis de augmentation: \textit{sem aug} (recortes fixos); \textit{com aug} (posição, tamanho, rotação, espelhamento, cor e desfoque); e \textit{com aug + colagem}, em que 40\% dos recortes juntam dois alimentos separados por uma borda ondulada, com rótulo suave proporcional à comida visível (Figura~\ref{fig:colagem}). A colagem imita alimentos encostados, situação que não existe no treino. A versão v2 acrescenta a classe Prato (prato vazio).
+Uma ResNet18 com pesos pré-treinados da biblioteca torchvision classifica recortes de $160\times160$ pixels cujo lado é 25\% do diâmetro do prato, o que os torna independentes da distância da câmera (AdamW, 15 épocas, melhor época pela validação). Foram comparados três níveis de augmentation: \textit{sem aug} (recortes fixos); \textit{com aug} (posição, tamanho, rotação, espelhamento, cor e desfoque); e \textit{com aug + colagem}, em que 40\% dos recortes juntam dois alimentos separados por uma borda ondulada, com rótulo suave proporcional à comida visível (Figura~\ref{fig:colagem}). A colagem imita alimentos encostados, situação que não existe no treino. A versão v2 acrescenta a classe Prato (prato vazio).
 
 \begin{figure}[!htb]
 	\centering
-	\includegraphics[width=0.8\textwidth]{augmentation_mistura}
+	\includegraphics[width=0.68\textwidth]{augmentation_mistura}
 	\caption{Augmentation por colagem: dois alimentos no mesmo recorte, com rótulo suave.}
 	\label{fig:colagem}
 \end{figure}
@@ -131,12 +131,19 @@ Os arquivos entregues contêm o código em Python, a demonstração ao vivo (\te
 
 \begin{figure}[!htb]
 	\centering
-	\includegraphics[width=0.4\textwidth]{gradcam_arroz_antes_depois}
+	\includegraphics[width=0.34\textwidth]{gradcam_arroz_antes_depois}
 	\caption{Grad-CAM da classe Arroz. Esquerda: com os limiares iniciais (14 e 9), o recorte é prato vazio e a rede responde Arroz com 99\%. Direita: com os limiares finais (8 e 3), o recorte contém arroz e a ativação fica sobre os grãos.}
 	\label{fig:gradcam}
 \end{figure}
 
-\textbf{Pratos.} O F1 cai para 0,84 a 0,88 (Tabela~\ref{tab:pratos}), efeito da mudança de alimentos isolados para misturados. Só trocar a semente aleatória muda o F1 em até 0,04, por isso cada modelo foi treinado 3 vezes. A augmentation genérica deu +0,01 de F1 macro, a favor em apenas 2 de 3 sementes: não se distingue do ruído. A colagem deu +0,024 (v1) e +0,030 (v2) sobre ela, a favor nas 6 comparações com a mesma semente, e recuperou os alimentos claros (na v2, o recall do arroz subiu de 61\% para 87\%), embora o da beterraba tenha caído de 94\% para 77\%. Por prato, a diferença pareada de Jaccard foi de +0,018, com IC 95\% $[-0{,}02;\ +0{,}05]$: consistente entre treinos, mas pequena perto da variação entre 34 pratos.
+\textbf{Pratos.} O F1 cai para 0,84 a 0,88 (Tabela~\ref{tab:pratos}), efeito da mudança de alimentos isolados para misturados. Só trocar a semente aleatória muda o F1 em até 0,04, por isso cada modelo foi treinado 3 vezes. A augmentation genérica deu +0,01 de F1 macro, a favor em apenas 2 de 3 sementes: não se distingue do ruído. A colagem deu +0,024 (v1) e +0,030 (v2) sobre ela, a favor nas 6 comparações com a mesma semente, e recuperou os alimentos claros (na v2, o recall do arroz subiu de 61\% para 87\%), embora o da beterraba tenha caído de 94\% para 77\%. Por prato, a diferença pareada de Jaccard foi de +0,018, com IC 95\% $[-0{,}02;\ +0{,}05]$: consistente entre treinos, mas pequena perto da variação entre 34 pratos. A Figura~\ref{fig:exemplo} mostra o resultado de cada etapa num prato com seis alimentos: a segmentação clássica delimita o prato e a comida, e a janela deslizante atribui um alimento a cada região.
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=\textwidth]{exemplo_prato}
+	\caption{Etapas da análise de um prato com o modelo final (v2 com colagem): foto de entrada, segmentação clássica (contorno do prato em azul e da comida em branco) e alimentos encontrados, com a porcentagem da comida ocupada por cada um. Os seis alimentos foram identificados corretamente.}
+	\label{fig:exemplo}
+\end{figure}
 
 \begin{table}[!htb]
 	\centering
@@ -162,8 +169,12 @@ O principal erro são alimentos fora das 16 classes, sempre trocados por um conh
 
 Em resumo, treinando só com alimentos isolados, o sistema identifica os alimentos de pratos com F1 macro de 0,876 $\pm$ 0,005. A segmentação clássica foi essencial, por fornecer a máscara de comida e a escala do prato. A augmentation desenhada para o problema (colagem) superou a genérica em todas as comparações, e o trabalho mostrou que 100\% de acurácia pode esconder um atalho e que comparar modelos exige várias execuções. As limitações são os rótulos e máscaras feitos por uma única pessoa, o pequeno número de pratos e a falta de rejeição de alimentos desconhecidos. Como melhorias, sugerem-se rotular os pixels de parte dos pratos para treinar uma rede de segmentação semântica, incluir um critério de rejeição, ampliar os pratos de teste e estimar a porção de cada alimento, que é o propósito original do banco.
 
-% Referências Bibliográficas
+% Referências Bibliográficas (fonte menor e itens mais juntos pra caber em 5 páginas)
+\let\OLDthebibliography\thebibliography
+\renewcommand\thebibliography[1]{\OLDthebibliography{#1}\setlength{\parskip}{0pt}\setlength{\itemsep}{1pt plus 0.3ex}}
+{\small
 \bibliography{bibliografia}
 \bibliographystyle{plain}
+}
 
 \end{document}
