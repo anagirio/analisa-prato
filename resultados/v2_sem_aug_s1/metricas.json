@@ -1,0 +1,8 @@
+{
+  "melhor_epoca": 13,
+  "acc_teste": 0.9977777777777778,
+  "f1_macro_teste": 0.9975953280659566,
+  "top3_teste": 1.0,
+  "prato_ok_teste": 0.9952830188679245,
+  "comida_como_prato_teste": 0.0011111111111111111
+}

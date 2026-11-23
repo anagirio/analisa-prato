@@ -1,0 +1,85 @@
+== sem_aug_s1  18:27
+ep 15 perda 0.000 acc_treino 1.000 | val perda 0.039 acc 0.985 f1 0.983 | 31s
+  "acc_teste": 1.0,
+  "f1_macro_teste": 1.0,
+     weighted avg      0.932     0.826     0.865      1169
+      samples avg      0.914     0.837     0.862      1169
+
+== com_aug_s1  18:37
+ep 15 perda 0.007 acc_treino 0.998 | val perda 0.024 acc 0.998 f1 0.998 | 47s
+  "acc_teste": 0.9933333333333333,
+  "f1_macro_teste": 0.9919630642954856,
+     weighted avg      0.935     0.834     0.870      1169
+      samples avg      0.911     0.849     0.867      1169
+
+== mix_aug_s1  18:50
+ep 15 perda 0.278 acc_treino 0.939 | val perda 0.037 acc 0.987 f1 0.985 | 58s
+  "acc_teste": 0.9977777777777778,
+  "f1_macro_teste": 0.9975698126546483,
+     weighted avg      0.940     0.861     0.894      1169
+      samples avg      0.930     0.873     0.889      1169
+
+== v2_sem_aug_s1  19:06
+ep 15 perda 0.000 acc_treino 1.000 | val perda 0.072 acc 0.983 f1 0.984 | prato ok 0.998 comida->prato 0.004 | 43s
+  "acc_teste": 0.9977777777777778,
+  "f1_macro_teste": 0.9975953280659566,
+     weighted avg      0.930     0.861     0.888      1169
+      samples avg      0.919     0.875     0.883      1169
+
+== v2_com_aug_s1  19:22
+ep 15 perda 0.012 acc_treino 0.997 | val perda 0.024 acc 0.998 f1 0.998 | prato ok 0.997 comida->prato 0.001 | 63s
+  "acc_teste": 1.0,
+  "f1_macro_teste": 1.0,
+     weighted avg      0.938     0.850     0.883      1169
+      samples avg      0.920     0.867     0.881      1169
+
+== v2_mix_aug_s1  19:43
+ep 15 perda 0.249 acc_treino 0.944 | val perda 0.031 acc 0.994 f1 0.993 | prato ok 0.998 comida->prato 0.002 | 72s
+  "acc_teste": 1.0,
+  "f1_macro_teste": 1.0,
+     weighted avg      0.950     0.880     0.909      1169
+      samples avg      0.935     0.894     0.903      1169
+
+== sem_aug_s2  20:06
+ep 15 perda 0.000 acc_treino 1.000 | val perda 0.053 acc 0.994 f1 0.993 | 34s
+  "acc_teste": 0.9977777777777778,
+  "f1_macro_teste": 0.9975698126546483,
+     weighted avg      0.933     0.824     0.859      1169
+      samples avg      0.899     0.833     0.855      1169
+
+== com_aug_s2  20:16
+ep 15 perda 0.006 acc_treino 0.998 | val perda 0.023 acc 0.998 f1 0.998 | 46s
+  "acc_teste": 0.9977777777777778,
+  "f1_macro_teste": 0.9972710014238253,
+     weighted avg      0.940     0.848     0.881      1169
+      samples avg      0.915     0.860     0.873      1169
+
+== mix_aug_s2  20:29
+ep 15 perda 0.278 acc_treino 0.938 | val perda 0.028 acc 0.998 f1 0.998 | 58s
+  "acc_teste": 0.9933333333333333,
+  "f1_macro_teste": 0.9910663641520137,
+     weighted avg      0.955     0.870     0.906      1169
+      samples avg      0.934     0.879     0.896      1169
+
+== v2_sem_aug_s2  20:45
+ep 15 perda 0.000 acc_treino 1.000 | val perda 0.053 acc 0.981 f1 0.979 | prato ok 0.998 comida->prato 0.001 | 43s
+  "acc_teste": 0.9933333333333333,
+  "f1_macro_teste": 0.9918439716312057,
+     weighted avg      0.932     0.825     0.864      1169
+      samples avg      0.911     0.829     0.853      1169
+
+== v2_com_aug_s2  21:01
+ep 15 perda 0.010 acc_treino 0.998 | val perda 0.025 acc 0.998 f1 0.998 | prato ok 0.998 comida->prato 0.002 | 61s
+  "acc_teste": 0.9911111111111112,
+  "f1_macro_teste": 0.9884537337662338,
+     weighted avg      0.936     0.858     0.889      1169
+      samples avg      0.922     0.875     0.886      1169
+
+== v2_mix_aug_s2  21:20
+ep 15 perda 0.258 acc_treino 0.947 | val perda 0.029 acc 0.996 f1 0.995 | prato ok 0.998 comida->prato 0.003 | 69s
+  "acc_teste": 0.9977777777777778,
+  "f1_macro_teste": 0.9970221213840045,
+     weighted avg      0.956     0.879     0.912      1169
+      samples avg      0.936     0.890     0.901      1169
+
+FIM 21:43

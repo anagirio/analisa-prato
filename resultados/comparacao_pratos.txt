@@ -1,0 +1,18 @@
+Avaliação multi-rótulo nos pratos (289 fotos, 34 pratos), limiares padrão conf 0,5 e área 4%.
+IC95 do Jaccard por bootstrap sobre pratos. 'CV limiares' = Jaccard com limiares ajustados por validação cruzada.
+
+modelo        P macro  R macro  F1 macro  F1 micro  exato  Jacc/prato  IC95             CV limiares
+sem_aug         0.869    0.869     0.853     0.888  0.433       0.773  [0.706, 0.839]       0.773
+com_aug         0.874    0.859     0.857     0.893  0.474       0.792  [0.718, 0.861]       0.769
+mix_aug         0.893    0.867     0.875     0.916  0.533       0.793  [0.725, 0.860]       0.823
+v2_sem_aug      0.878    0.860     0.859     0.894  0.457       0.781  [0.706, 0.846]       0.780
+v2_com_aug      0.882    0.848     0.854     0.886  0.412       0.763  [0.695, 0.828]       0.759
+v2_mix_aug      0.901    0.869     0.878     0.906  0.484       0.781  [0.710, 0.849]       0.805
+
+Comparação pareada (mesmos pratos), bootstrap sobre pratos:
+  com_aug - sem_aug  jaccard: +0.019  IC95 [-0.021, +0.063]  melhorou em 14 pratos, piorou em 8
+  com_aug - sem_aug  recall (fração dos alimentos achados): +0.007  IC95 [-0.028, +0.047]  melhorou em 10 pratos, piorou em 7
+  mix_aug - com_aug  jaccard: +0.001  IC95 [-0.054, +0.049]  melhorou em 13 pratos, piorou em 10
+  mix_aug - com_aug  recall (fração dos alimentos achados): -0.004  IC95 [-0.056, +0.044]  melhorou em 11 pratos, piorou em 10
+  v2_mix_aug - v2_com_aug  jaccard: +0.018  IC95 [-0.020, +0.054]  melhorou em 12 pratos, piorou em 7
+  v2_mix_aug - v2_com_aug  recall (fração dos alimentos achados): +0.017  IC95 [-0.029, +0.061]  melhorou em 11 pratos, piorou em 6

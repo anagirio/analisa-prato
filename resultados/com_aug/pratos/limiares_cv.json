@@ -1,0 +1,32 @@
+{
+  "precisao_macro": 0.8565884631565563,
+  "recall_macro": 0.8634325424351473,
+  "f1_macro": 0.848055327375422,
+  "f1_micro": 0.8844722568709645,
+  "acerto_exato": 0.4529411764705883,
+  "jaccard_prato": 0.7693181170978378,
+  "jaccard_ic95": [
+    0.6963576697186141,
+    0.835699596639755
+  ],
+  "padrao_0.5_0.04": {
+    "precisao_macro": 0.8735335855988066,
+    "recall_macro": 0.8589178992017156,
+    "f1_macro": 0.8570088551803516,
+    "f1_micro": 0.8927152317880794,
+    "acerto_exato": 0.4740484429065744,
+    "jaccard_prato": 0.7921552035046844
+  },
+  "limiares_escolhidos": {
+    "conf=0.6 area=0.02": 5,
+    "conf=0.4 area=0.02": 3,
+    "conf=0.6 area=0.01": 2,
+    "conf=0.7 area=0.01": 2,
+    "conf=0.5 area=0.03": 2,
+    "conf=0.3 area=0.02": 2,
+    "conf=0.7 area=0.04": 1,
+    "conf=0.5 area=0.02": 1,
+    "conf=0.5 area=0.04": 1,
+    "conf=0.4 area=0.04": 1
+  }
+}

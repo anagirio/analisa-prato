@@ -1,0 +1,26 @@
+# ambiente e caches (regeráveis, ver README)
+.venv/
+__pycache__/
+.DS_Store
+dados/
+cache/
+
+# modelos: só o da demo vai no repositório (os outros têm ~45 MB cada, regeráveis com treino.py)
+*.pt
+!resultados/v2_mix_aug/modelo.pt
+
+# visualizações por foto (regeráveis com analisa_prato.py / avalia_pratos.py --figuras)
+resultados/**/pratos_amostra/
+
+# arquivos temporários do LaTeX e do Word
+relatorio/overleaf/*.aux
+relatorio/overleaf/*.log
+relatorio/overleaf/*.bbl
+relatorio/overleaf/*.blg
+~$*
+
+# material pessoal de preparação e rascunhos (não vai pra entrega)
+guia/
+relatorio/*.docx
+relatorio/gera_relatorio*.py
+relatorio/omml.py

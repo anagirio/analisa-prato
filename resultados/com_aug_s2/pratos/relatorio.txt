@@ -1,0 +1,22 @@
+                   precision    recall  f1-score   support
+
+           Alface      1.000     0.968     0.984       125
+        Almondega      0.833     0.978     0.900        46
+            Arroz      0.950     0.603     0.738       126
+      BatataFrita      0.990     0.953     0.971       107
+        Beterraba      1.000     0.931     0.964       102
+  BifeBovinoChapa      0.769     1.000     0.870        20
+CarneBovinaPanela      0.196     0.435     0.270        23
+          Cenoura      1.000     0.684     0.812        95
+    FeijaoCarioca      0.730     1.000     0.844        27
+         Maionese      1.000     0.719     0.837       114
+      PeitoFrango      0.871     0.949     0.908        78
+       PureBatata      0.962     0.701     0.811       107
+  StrogonoffCarne      0.876     1.000     0.934        85
+ StrogonoffFrango      1.000     1.000     1.000        56
+           Tomate      1.000     1.000     1.000        58
+
+        micro avg      0.911     0.848     0.878      1169
+        macro avg      0.878     0.861     0.856      1169
+     weighted avg      0.940     0.848     0.881      1169
+      samples avg      0.915     0.860     0.873      1169

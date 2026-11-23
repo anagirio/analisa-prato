@@ -1,0 +1,16 @@
+{
+  "fotos": 289,
+  "pratos": 34,
+  "precisao_macro": 0.8514300696139278,
+  "recall_macro": 0.8093820370097493,
+  "f1_macro": 0.8141279148283842,
+  "precisao_micro": 0.9069548872180451,
+  "recall_micro": 0.825491873396065,
+  "f1_micro": 0.864308105687416,
+  "acerto_exato": 0.36678200692041524,
+  "jaccard_medio": 0.7822941176470587,
+  "jaccard_sem_outro": 0.838957264957265,
+  "jaccard_com_outro": 0.5412181818181818,
+  "area_min": 0.04,
+  "conf_min": 0.5
+}

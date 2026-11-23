@@ -1,0 +1,36 @@
+  0/289
+  50/289
+  100/289
+  150/289
+  200/289
+  250/289
+fora das classes, contam como OUTRO: Azeitona, Cogumelos, FeijaoPreto, Legumes, Nhoque, Nuggets, Ovo, Panqueca, PedacoCarne, Salgado
+{
+  "precisao_macro": 0.8505702154400705,
+  "recall_macro": 0.8987297807293709,
+  "f1_macro": 0.8554460119880833,
+  "f1_micro": 0.8912163699858203,
+  "acerto_exato": 0.4602076124567474,
+  "jaccard_prato": 0.7731309606466877,
+  "jaccard_ic95": [
+    0.7039486694392064,
+    0.8375045642463956
+  ],
+  "padrao_0.5_0.04": {
+    "precisao_macro": 0.8686375398445736,
+    "recall_macro": 0.8692431953668038,
+    "f1_macro": 0.8528156713868509,
+    "f1_micro": 0.8881088196577446,
+    "acerto_exato": 0.43252595155709345,
+    "jaccard_prato": 0.7728083059632739
+  },
+  "limiares_escolhidos": {
+    "conf=0.5 area=0.02": 10,
+    "conf=0.3 area=0.04": 3,
+    "conf=0.4 area=0.03": 2,
+    "conf=0.3 area=0.03": 2,
+    "conf=0.7 area=0.02": 1,
+    "conf=0.3 area=0.02": 1,
+    "conf=0.5 area=0.04": 1
+  }
+}

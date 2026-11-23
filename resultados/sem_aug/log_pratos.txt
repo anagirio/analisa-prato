@@ -1,0 +1,40 @@
+fora das classes, contam como OUTRO: Azeitona, Cogumelos, FeijaoPreto, Legumes, Nhoque, Nuggets, Ovo, Panqueca, PedacoCarne, Salgado
+{
+  "fotos": 289,
+  "pratos": 34,
+  "precisao_macro": 0.8686375398445736,
+  "recall_macro": 0.8692431953668038,
+  "f1_macro": 0.8528156713868509,
+  "precisao_micro": 0.9117117117117117,
+  "recall_micro": 0.8656971770744226,
+  "f1_micro": 0.8881088196577446,
+  "acerto_exato": 0.43252595155709345,
+  "jaccard_medio": 0.8164429065743944,
+  "jaccard_sem_outro": 0.8635726495726497,
+  "jaccard_com_outro": 0.6159272727272728,
+  "area_min": 0.04,
+  "conf_min": 0.5
+}
+                   precision    recall  f1-score   support
+
+           Alface      0.992     0.976     0.984       125
+        Almondega      1.000     0.891     0.943        46
+            Arroz      0.956     0.683     0.796       126
+      BatataFrita      0.990     0.972     0.981       107
+        Beterraba      1.000     0.902     0.948       102
+  BifeBovinoChapa      0.444     1.000     0.615        20
+CarneBovinaPanela      0.256     0.435     0.323        23
+          Cenoura      1.000     0.800     0.889        95
+    FeijaoCarioca      0.675     1.000     0.806        27
+         Maionese      1.000     0.807     0.893       114
+      PeitoFrango      0.880     0.936     0.907        78
+       PureBatata      0.960     0.673     0.791       107
+  StrogonoffCarne      0.876     1.000     0.934        85
+ StrogonoffFrango      1.000     0.964     0.982        56
+           Tomate      1.000     1.000     1.000        58
+
+        micro avg      0.912     0.866     0.888      1169
+        macro avg      0.869     0.869     0.853      1169
+     weighted avg      0.941     0.866     0.893      1169
+      samples avg      0.917     0.873     0.880      1169
+

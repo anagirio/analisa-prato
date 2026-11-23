@@ -1,0 +1,25 @@
+Pratos (34 rajadas): média ± desvio padrão de 3 sementes (0, 1, 2)
+modelo                P macro          R macro         F1 macro         F1 micro            exato          Jaccard
+sem_aug         0.865 ± 0.005    0.839 ± 0.026    0.836 ± 0.014    0.872 ± 0.014    0.369 ± 0.055    0.795 ± 0.019
+com_aug         0.866 ± 0.018    0.850 ± 0.018    0.844 ± 0.022    0.880 ± 0.012    0.427 ± 0.045    0.810 ± 0.016
+mix_aug         0.890 ± 0.015    0.858 ± 0.013    0.868 ± 0.013    0.905 ± 0.011    0.471 ± 0.059    0.840 ± 0.017
+v2_sem_aug      0.859 ± 0.017    0.838 ± 0.026    0.837 ± 0.022    0.881 ± 0.015    0.412 ± 0.045    0.809 ± 0.024
+v2_com_aug      0.869 ± 0.012    0.846 ± 0.002    0.847 ± 0.007    0.885 ± 0.004    0.433 ± 0.030    0.819 ± 0.006
+v2_mix_aug      0.898 ± 0.005    0.868 ± 0.007    0.876 ± 0.005    0.908 ± 0.002    0.483 ± 0.005    0.844 ± 0.004
+
+F1 macro por semente
+sem_aug     0.853  0.829  0.827
+com_aug     0.857  0.818  0.856
+mix_aug     0.875  0.852  0.876
+v2_sem_aug  0.859  0.837  0.814
+v2_com_aug  0.854  0.840  0.846
+v2_mix_aug  0.878  0.871  0.880
+
+Diferença de F1 macro na mesma semente (quantas sementes a favor)
+com_aug - sem_aug: média +0.007  por semente +0.004 -0.011 +0.029  (2/3 a favor)
+mix_aug - com_aug: média +0.024  por semente +0.018 +0.034 +0.020  (3/3 a favor)
+mix_aug - sem_aug: média +0.031  por semente +0.022 +0.023 +0.049  (3/3 a favor)
+v2_com_aug - v2_sem_aug: média +0.010  por semente -0.005 +0.003 +0.032  (2/3 a favor)
+v2_mix_aug - v2_com_aug: média +0.030  por semente +0.024 +0.031 +0.034  (3/3 a favor)
+v2_mix_aug - v2_sem_aug: média +0.040  por semente +0.019 +0.034 +0.066  (3/3 a favor)
+v2_mix_aug - mix_aug: média +0.009  por semente +0.003 +0.018 +0.004  (3/3 a favor)

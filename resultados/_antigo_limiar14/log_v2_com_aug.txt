@@ -1,0 +1,1 @@
+dispositivo=mps classes=17 treino=1093 val=468 teste=450

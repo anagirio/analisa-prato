@@ -1,0 +1,46 @@
+dispositivo=mps classes=16 treino=1093 val=468 teste=450
+imagens carregadas em 5s
+ep  1 perda 0.121 acc_treino 0.970 | val perda 0.437 acc 0.848 f1 0.820 | 33s
+ep  2 perda 0.022 acc_treino 0.993 | val perda 0.107 acc 0.970 f1 0.965 | 30s
+ep  3 perda 0.019 acc_treino 0.996 | val perda 0.054 acc 0.985 f1 0.983 | 31s
+ep  4 perda 0.030 acc_treino 0.991 | val perda 0.201 acc 0.917 f1 0.900 | 32s
+ep  5 perda 0.009 acc_treino 0.997 | val perda 0.057 acc 0.983 f1 0.981 | 29s
+ep  6 perda 0.007 acc_treino 0.998 | val perda 0.034 acc 0.996 f1 0.995 | 33s
+ep  7 perda 0.003 acc_treino 1.000 | val perda 0.039 acc 0.991 f1 0.993 | 32s
+ep  8 perda 0.000 acc_treino 1.000 | val perda 0.031 acc 0.996 f1 0.996 | 33s
+ep  9 perda 0.001 acc_treino 1.000 | val perda 0.040 acc 0.991 f1 0.990 | 32s
+ep 10 perda 0.000 acc_treino 1.000 | val perda 0.033 acc 0.998 f1 0.998 | 32s
+ep 11 perda 0.000 acc_treino 1.000 | val perda 0.036 acc 0.998 f1 0.998 | 34s
+ep 12 perda 0.001 acc_treino 1.000 | val perda 0.033 acc 1.000 f1 1.000 | 31s
+ep 13 perda 0.000 acc_treino 1.000 | val perda 0.036 acc 0.996 f1 0.995 | 31s
+ep 14 perda 0.000 acc_treino 1.000 | val perda 0.031 acc 0.996 f1 0.995 | 30s
+ep 15 perda 0.000 acc_treino 1.000 | val perda 0.036 acc 0.998 f1 0.998 | 33s
+{
+  "melhor_epoca": 12,
+  "acc_teste": 1.0,
+  "f1_macro_teste": 1.0,
+  "top3_teste": 1.0
+}
+                   precision    recall  f1-score   support
+
+           Alface      1.000     1.000     1.000        28
+        Almondega      1.000     1.000     1.000        38
+            Arroz      1.000     1.000     1.000        26
+      BatataFrita      1.000     1.000     1.000        22
+        Beterraba      1.000     1.000     1.000        31
+  BifeBovinoChapa      1.000     1.000     1.000        22
+CarneBovinaPanela      1.000     1.000     1.000        41
+          Cenoura      1.000     1.000     1.000        35
+    FeijaoCarioca      1.000     1.000     1.000        26
+         Macarrao      1.000     1.000     1.000        27
+         Maionese      1.000     1.000     1.000        21
+      PeitoFrango      1.000     1.000     1.000        21
+       PureBatata      1.000     1.000     1.000        25
+  StrogonoffCarne      1.000     1.000     1.000        35
+ StrogonoffFrango      1.000     1.000     1.000        20
+           Tomate      1.000     1.000     1.000        32
+
+         accuracy                          1.000       450
+        macro avg      1.000     1.000     1.000       450
+     weighted avg      1.000     1.000     1.000       450
+

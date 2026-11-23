@@ -1,0 +1,34 @@
+IMG_20140922_141541933: StrogonoffCarne (44%), Arroz (27%), Maionese (22%) | incerto 7%
+IMG_20140922_141715409: Alface (39%), PureBatata (28%), PeitoFrango (27%) | incerto 7%
+IMG_20140922_141953922: Alface (39%), PeitoFrango (26%), PureBatata (17%), Maionese (10%) | incerto 7%
+IMG_20140923_141839167: BatataFrita (39%), Alface (23%), StrogonoffCarne (20%), Tomate (13%) | incerto 5%
+IMG_20140923_142132372: StrogonoffCarne (40%), Alface (24%), BatataFrita (19%) | incerto 15%
+IMG_20140923_142327366: StrogonoffCarne (35%), Alface (22%), Tomate (13%), BatataFrita (11%), CarneBovinaPanela (7%) | incerto 11%
+IMG_20140924_140210977: Cenoura (56%), Beterraba (40%) | incerto 3%
+IMG_20140924_140725750: Alface (41%), Cenoura (37%), Beterraba (16%) | incerto 6%
+IMG_20140924_141128712: Alface (44%), Cenoura (31%), Tomate (16%) | incerto 8%
+IMG_20140925_142756609: BatataFrita (41%), Arroz (12%), PeitoFrango (10%), Maionese (8%), Beterraba (6%) | incerto 22%
+IMG_20140926_140501433: StrogonoffFrango (20%), BatataFrita (19%), Tomate (16%), PureBatata (15%), Beterraba (12%), Arroz (7%) | incerto 10%
+IMG_20140926_140733571: Tomate (38%), Cenoura (27%), Beterraba (25%) | incerto 10%
+IMG_20141114_135647024: StrogonoffCarne (30%), BatataFrita (26%), Almondega (19%), FeijaoCarioca (15%) | incerto 11%
+IMG_20141120_121745664: FeijaoCarioca (22%), PeitoFrango (22%), Alface (20%), Cenoura (13%), Maionese (12%) | incerto 11%
+IMG_20141120_122214184: BatataFrita (30%), StrogonoffCarne (29%), PureBatata (14%), Arroz (13%) | incerto 14%
+IMG_20150227_140315905: StrogonoffFrango (43%), Arroz (20%), Maionese (15%), Almondega (8%) | incerto 14%
+IMG_20150303_143036467: Alface (29%), StrogonoffFrango (29%), BatataFrita (13%), Maionese (11%), Arroz (11%) | incerto 7%
+IMG_20150303_143442140: Alface (45%), StrogonoffFrango (25%), BatataFrita (14%), Arroz (7%) | incerto 6%
+IMG_20150305_140245793: CarneBovinaPanela (28%), StrogonoffCarne (28%), Almondega (16%), PureBatata (9%) | incerto 19%
+IMG_20150305_141610336: BifeBovinoChapa (70%), Almondega (13%), PureBatata (10%) | incerto 7%
+IMG_20150305_141955396: Arroz (24%), CarneBovinaPanela (18%), PeitoFrango (16%), PureBatata (15%) | incerto 26%
+IMG_20150305_142018869: Tomate (67%), PureBatata (24%) | incerto 10%
+IMG_20150305_144732937: Alface (27%), PureBatata (25%), Beterraba (14%) | incerto 27%
+IMG_20150309_142923008: FeijaoCarioca (30%), StrogonoffFrango (30%), PeitoFrango (13%), Cenoura (7%) | incerto 20%
+IMG_20150309_142946997: StrogonoffFrango (28%), FeijaoCarioca (23%), PeitoFrango (17%), Cenoura (9%) | incerto 23%
+IMG_20150309_143041657: FeijaoCarioca (30%), StrogonoffFrango (30%), PeitoFrango (10%), Cenoura (6%) | incerto 24%
+IMG_20150312_140416703: CarneBovinaPanela (38%), StrogonoffCarne (36%), PureBatata (12%), Arroz (6%) | incerto 8%
+IMG_20150312_140554320: StrogonoffCarne (33%), CarneBovinaPanela (28%), FeijaoCarioca (15%), PureBatata (12%) | incerto 12%
+IMG_20150319_133153321: PureBatata (21%), BifeBovinoChapa (15%), StrogonoffFrango (9%), CarneBovinaPanela (4%) | incerto 44%
+IMG_20150323_140948751: StrogonoffFrango (54%), PureBatata (46%)
+prato_2_1: Alface (27%), Beterraba (19%), PureBatata (14%), PeitoFrango (13%), Maionese (10%) | incerto 17%
+prato_3_1: Beterraba (28%), Alface (23%), PeitoFrango (16%) | incerto 34%
+prato_4_1: PeitoFrango (37%), Cenoura (26%), Almondega (23%) | incerto 14%
+prato_dia1_1: StrogonoffFrango (31%), Maionese (23%), Arroz (18%) | incerto 22%

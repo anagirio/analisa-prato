@@ -1,0 +1,49 @@
+dispositivo=mps classes=17 treino=1093 val=468 teste=450
+imagens carregadas em 168s
+fotos de treino com região de prato vazio: 1032
+ep  1 perda 0.262 acc_treino 0.930 | val perda 0.159 acc 0.947 f1 0.940 | prato ok 0.995 comida->prato 0.052 | 59s
+ep  2 perda 0.120 acc_treino 0.965 | val perda 0.096 acc 0.991 f1 0.990 | prato ok 0.995 comida->prato 0.051 | 59s
+ep  3 perda 0.108 acc_treino 0.969 | val perda 0.066 acc 0.991 f1 0.990 | prato ok 0.924 comida->prato 0.003 | 59s
+ep  4 perda 0.103 acc_treino 0.968 | val perda 0.080 acc 0.987 f1 0.985 | prato ok 0.985 comida->prato 0.031 | 62s
+ep  5 perda 0.085 acc_treino 0.975 | val perda 0.056 acc 1.000 f1 1.000 | prato ok 0.950 comida->prato 0.009 | 64s
+ep  6 perda 0.077 acc_treino 0.978 | val perda 0.075 acc 0.979 f1 0.975 | prato ok 0.985 comida->prato 0.026 | 63s
+ep  7 perda 0.069 acc_treino 0.979 | val perda 0.076 acc 0.987 f1 0.985 | prato ok 0.998 comida->prato 0.058 | 62s
+ep  8 perda 0.066 acc_treino 0.980 | val perda 0.048 acc 0.998 f1 0.998 | prato ok 0.992 comida->prato 0.026 | 65s
+ep  9 perda 0.060 acc_treino 0.980 | val perda 0.050 acc 0.991 f1 0.990 | prato ok 0.985 comida->prato 0.028 | 68s
+ep 10 perda 0.048 acc_treino 0.985 | val perda 0.048 acc 0.998 f1 0.998 | prato ok 0.974 comida->prato 0.017 | 65s
+ep 11 perda 0.048 acc_treino 0.986 | val perda 0.036 acc 1.000 f1 1.000 | prato ok 0.986 comida->prato 0.016 | 82s
+ep 12 perda 0.041 acc_treino 0.988 | val perda 0.034 acc 1.000 f1 1.000 | prato ok 0.977 comida->prato 0.012 | 82s
+ep 13 perda 0.043 acc_treino 0.987 | val perda 0.035 acc 0.998 f1 0.998 | prato ok 0.985 comida->prato 0.016 | 82s
+ep 14 perda 0.037 acc_treino 0.987 | val perda 0.036 acc 1.000 f1 1.000 | prato ok 0.983 comida->prato 0.016 | 83s
+ep 15 perda 0.038 acc_treino 0.987 | val perda 0.035 acc 0.994 f1 0.993 | prato ok 0.987 comida->prato 0.019 | 83s
+{
+  "melhor_epoca": 11,
+  "acc_teste": 1.0,
+  "f1_macro_teste": 1.0,
+  "top3_teste": 1.0,
+  "prato_ok_teste": 0.9758254716981132,
+  "comida_como_prato_teste": 0.005
+}
+                   precision    recall  f1-score   support
+
+           Alface      1.000     1.000     1.000        28
+        Almondega      1.000     1.000     1.000        38
+            Arroz      1.000     1.000     1.000        26
+      BatataFrita      1.000     1.000     1.000        22
+        Beterraba      1.000     1.000     1.000        31
+  BifeBovinoChapa      1.000     1.000     1.000        22
+CarneBovinaPanela      1.000     1.000     1.000        41
+          Cenoura      1.000     1.000     1.000        35
+    FeijaoCarioca      1.000     1.000     1.000        26
+         Macarrao      1.000     1.000     1.000        27
+         Maionese      1.000     1.000     1.000        21
+      PeitoFrango      1.000     1.000     1.000        21
+       PureBatata      1.000     1.000     1.000        25
+  StrogonoffCarne      1.000     1.000     1.000        35
+ StrogonoffFrango      1.000     1.000     1.000        20
+           Tomate      1.000     1.000     1.000        32
+
+         accuracy                          1.000       450
+        macro avg      1.000     1.000     1.000       450
+     weighted avg      1.000     1.000     1.000       450
+
