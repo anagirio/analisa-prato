@@ -1,4 +1,4 @@
-# Analisa prato: o que tem no meu prato?
+# Do alimento isolado ao prato: reconhecimento de alimentos com CNN e data augmentation
 
 Projeto final de IF69D (Processamento Digital de Imagens, UTFPR, 2026.2).
 Ana Luisa Girio.
